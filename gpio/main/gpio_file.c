@@ -114,6 +114,7 @@ void app_main(void)
         vTaskDelay(1000 / portTICK_RATE_MS);
         gpio_set_level(GPIO_OUTPUT_IO_0, cnt % 2);
         printf(" HELLO 816026883 \n");
+        //added in an output comment to ensure the program is working
         //gpio_set_level(GPIO_OUTPUT_IO_1, cnt % 2);
     }
 }
